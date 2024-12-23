@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MLProject"
+version = "0.0.1"
+description = "End to end ML project"
+readme = "README.md"
+authors = [
+    { name = "Darshan", email = "darshan9d9@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "seaborn"
+]
